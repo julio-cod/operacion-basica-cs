@@ -1,0 +1,21 @@
+programacion con git
+git init
+git add .gitignore
+git status
+git commit -m "version alternativa con un login"
+git log
+git branch
+git checkout master
+git push -u origin master
+
+
+ejemplo clone un repositorio de github
+
+Lenovo@Lenovo-PC MINGW64 ~
+$ cd Desktop
+
+Lenovo@Lenovo-PC MINGW64 ~/Desktop
+$ git clone https://github.com/julio-cod/git-prueba.git
+
+Lenovo@Lenovo-PC MINGW64 ~/Desktop
+$ cd git-prueba
