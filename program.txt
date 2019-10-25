@@ -6,9 +6,11 @@ git commit -m "version alternativa con un login"
 git log
 git branch
 git checkout master
+git checkout nombrelogin
+git remote add origin https://github.com/julio-cod/git-prueba.git
 git push -u origin master
 
-
+-------------------------------------------------------------------
 ejemplo clone un repositorio de github
 
 Lenovo@Lenovo-PC MINGW64 ~
@@ -19,3 +21,27 @@ $ git clone https://github.com/julio-cod/git-prueba.git
 
 Lenovo@Lenovo-PC MINGW64 ~/Desktop
 $ cd git-prueba
+--------------------------------------------------------------------
+
+otros cmd
+pwd
+para cambiar de directorio
+cd ../
+cd D
+ls
+git add 'Operaciones Matematicas CS' 
+
+--------------------------------------------------------------------
+para crear la rama
+git branch interface
+
+para ver la rama
+git branch
+para cambiarme a otra rama
+git checkout interface
+
+para ver la rama en que se encuentra actual
+git log
+
+
+
